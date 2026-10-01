@@ -1,0 +1,114 @@
+DSA Learning — Day 1
+
+📌 Topic: Introduction to Data Structures & Algorithms
+
+Today I started my Data Structures and Algorithms (DSA) learning journey from the fundamentals.
+
+The goal of Day 1 was not to solve difficult problems, but to understand the overall DSA roadmap and how different concepts are connected.
+
+🧠 What I Learned
+
+1. What is DSA?
+
+DSA = Data Structures + Algorithms
+
+- Data Structure: A way of organizing and storing data efficiently.
+- Algorithm: A step-by-step procedure used to solve a problem.
+
+2. Why DSA Matters
+
+DSA helps me learn how to:
+
+- Break complex problems into smaller parts
+- Choose appropriate data structures
+- Design efficient solutions
+- Improve problem-solving skills
+- Analyze the performance of programs
+
+3. Important DSA Concepts
+
+My learning roadmap includes:
+
+- Arrays
+- Strings
+- Linked Lists
+- Stacks
+- Queues
+- Hashing
+- Recursion
+- Searching
+- Sorting
+- Trees
+- Graphs
+- Greedy Algorithms
+- Backtracking
+- Dynamic Programming
+
+4. Complexity Analysis
+
+I was introduced to two important concepts:
+
+Time Complexity
+Measures how the running time of an algorithm grows as the input size increases.
+
+Space Complexity
+Measures how much additional memory an algorithm requires as the input size increases.
+
+Common complexity patterns I will learn:
+
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n²)
+O(2ⁿ)
+
+5. Problem-Solving Approach
+
+I learned that solving DSA problems is not simply about writing code.
+
+My approach will be:
+
+Understand the problem
+        ↓
+Identify input and output
+        ↓
+Break the problem down
+        ↓
+Choose a suitable data structure
+        ↓
+Develop an algorithm
+        ↓
+Implement in Python
+        ↓
+Test the solution
+        ↓
+Analyze Time & Space Complexity
+        ↓
+Improve the solution
+
+🎯 My Learning Goal
+
+I want to develop the ability to think logically and design efficient solutions, rather than simply memorize algorithms.
+
+This repository will document my DSA learning journey, implementations, problem-solving practice, and progress from beginner to advanced concepts.
+
+📅 Progress
+
+- [x] Day 1 — DSA Overview
+- [ ] Day 2 — Time & Space Complexity
+- [ ] Arrays
+- [ ] Strings
+- [ ] Linked Lists
+- [ ] Stack & Queue
+- [ ] Hashing
+- [ ] Recursion
+- [ ] Searching & Sorting
+- [ ] Trees
+- [ ] Graphs
+- [ ] Advanced DSA
+
+---
+
+Language: Python
+Status: 🚀 Learning in Progress

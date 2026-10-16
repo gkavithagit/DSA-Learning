@@ -1,12 +1,12 @@
-🚀 Data Structures and Algorithms (DSA) Learning Journey with Python
+🚀 Data Structures and Algorithms (DSA) — Learning Journey
 
-Welcome to my Data Structures and Algorithms (DSA) Learning Repository!
+Welcome to my Data Structures and Algorithms (DSA) learning repository!
 
-I'm a second-year B.Sc. Computer Science student specializing in Cybersecurity, building a strong foundation in problem-solving, algorithm design, and Python programming to prepare for software development and cybersecurity-related placements.
+I'm a B.Sc. Computer Science student specialising in Cybersecurity, building my programming, problem-solving, and algorithmic thinking skills to prepare for technical interviews and software development opportunities.
 
-This repository documents my daily DSA learning journey, including core concepts, Python implementations, complexity analysis, practice questions, and key takeaways.
+This repository documents my daily DSA learning journey using Python, including concepts, code implementations, practice questions, and important takeaways.
 
-My goal is to understand how algorithms work, analyze their efficiency, and develop the ability to solve coding problems independently.
+My focus is on understanding the logic behind each concept rather than memorising solutions.
 
 ---
 
@@ -15,339 +15,185 @@ My goal is to understand how algorithms work, analyze their efficiency, and deve
 - Build a strong foundation in Data Structures and Algorithms.
 - Improve logical thinking and problem-solving skills.
 - Understand time and space complexity.
-- Implement fundamental algorithms using Python.
-- Develop efficient approaches to coding problems.
-- Prepare for technical interviews and placement assessments.
-- Maintain a consistent learning record through GitHub.
+- Practise implementing algorithms using Python.
+- Develop the skills required for coding assessments and technical interviews.
+- Maintain a consistent coding practice and document my progress on GitHub.
 
 ---
 
-📚 Daily Learning Progress
+📚 DSA Learning Progress: Day 1–16
 
-✅ Day 1 — Introduction to DSA
+🟢 Foundation: Introduction to DSA and Complexity Analysis
 
-Topics Covered:
+Day| Topic| Key Learnings
+Day 1| Introduction to DSA| Understood what DSA is, why it matters, and its importance in programming and technical interviews.
+Day 2| Time Complexity — Big O Notation| Learned how to analyse algorithm efficiency using O(1), O(n), and O(n²). Practised identifying complexity through examples and quizzes.
+Day 3| Space Complexity| Learned how to analyse the memory used by an algorithm and distinguish time complexity from space complexity.
+Day 4| Auxiliary Space Complexity| Studied the extra memory used by an algorithm during execution and how auxiliary space differs from total space complexity.
+Day 5| Complexity Analysis Practice| Revised time and space complexity concepts and practised identifying algorithm efficiency through questions and examples.
 
-- Introduction to Data Structures and Algorithms.
-- Importance of DSA in programming and software development.
-- Understanding how data structures organize data.
-- Understanding how algorithms solve problems.
-- Introduction to the DSA learning roadmap.
+🟡 Intermediate Foundation: Recursion and Arrays
 
-Key Takeaway:
+Day| Topic| Key Learnings
+Day 6| Recursion| Learned the basic idea of recursion, recursive function calls, and the importance of a base case.
+Day 7| Arrays — Insertion and Deletion| Studied how elements are inserted into and deleted from arrays, including the shifting of elements and its effect on time complexity.
 
-Data structures organize and store data, while algorithms define the steps used to process data and solve problems.
+🔵 Searching Algorithms
 
----
+Day| Topic| Key Learnings
+Day 8| Searching Algorithms — Introduction| Continued learning about searching techniques and the basic idea of finding elements in a collection.
+Day 9| Searching Algorithms — Fundamentals| Revised searching concepts and explored how searching methods locate target elements.
+Day 10| Search Algorithms — Revision| Reviewed searching concepts and reinforced the differences between searching approaches.
+Day 11| Binary Search — Introduction and Practice| Began focusing on Binary Search and its fundamental searching logic.
+Day 12| Binary Search — Concept Practice| Practised understanding the middle element, comparisons, and search direction.
+Day 13| Binary Search — Problem-Solving Practice| Reinforced Binary Search concepts through practice questions and quizzes.
+Day 14| Binary Search — Logic and Revision| Continued practising search-space reduction and the conditions used to locate a target.
+Day 15| Binary Search — Continued Practice| Revised the algorithm and strengthened understanding through additional questions.
+Day 16| Binary Search — Practical Implementation| Studied the iterative Python implementation, boundary updates, target searching, and time and auxiliary space complexity. Scored 5/5 in the concept quiz.
 
-✅ Day 2 — Time Complexity and Big O Notation
-
-Topics Covered:
-
-- Introduction to time complexity.
-- Understanding Big O notation.
-- Analyzing how an algorithm's running time grows with input size.
-- Introduction to common complexity classes.
-
-Complexities Studied:
-
-Complexity| Meaning| Example
-O(1)| Constant time| Accessing an array element by index
-O(n)| Linear time| Traversing an array
-O(n²)| Quadratic time| Comparing every pair in a simple nested-loop pattern
-
-Key Takeaway:
-
-Time complexity helps estimate how an algorithm's running time grows as the input size increases.
+Progress note: This table summarises the topics covered in my learning journey. It does not imply that every topic has been mastered; I will continue revising concepts and solving practical coding problems.
 
 ---
 
-✅ Day 3 — Space Complexity
-
-Topics Covered:
-
-- Introduction to space complexity.
-- Understanding memory usage as input size grows.
-- Difference between total space and auxiliary space.
-- Identifying additional variables and data structures used by algorithms.
-
-Example:
-
-def find_first(arr):
-    if arr:
-        return arr[0]
-    return None
-
-The function uses O(1) auxiliary space because it requires only a constant amount of additional memory.
-
-Key Takeaway:
-
-Space complexity helps evaluate the memory requirements of an algorithm.
-
----
-
-✅ Day 4 — Auxiliary Space Complexity
-
-Topics Covered:
-
-- Understanding auxiliary space.
-- Identifying extra memory used during execution.
-- Distinguishing input storage from additional working memory.
-- Analyzing variables and temporary data structures.
-
-Example:
-
-def calculate_sum(arr):
-    total = 0
-
-    for num in arr:
-        total += num
-
-    return total
-
-Auxiliary Space: O(1)
-
-The function uses a constant amount of additional memory, regardless of the number of elements in the input array.
-
-Key Takeaway:
-
-An algorithm can process a large input without necessarily requiring a large amount of auxiliary memory.
-
----
-
-✅ Day 5 — Algorithm Analysis and Complexity Practice
-
-Topics Covered:
-
-- Practising time complexity analysis.
-- Identifying common complexity patterns.
-- Applying Big O concepts to code examples.
-- Improving understanding of algorithm efficiency.
-
-Key Takeaway:
-
-Understanding how loops and repeated operations affect running time is an important step toward analyzing algorithms independently.
-
----
-
-✅ Day 6 — Recursion Fundamentals
-
-Topics Covered:
-
-- Introduction to recursion.
-- Understanding how a function calls itself.
-- Identifying base cases.
-- Understanding recursive calls.
-- Learning why recursion must eventually reach a stopping condition.
-
-Example:
-
-def countdown(n):
-    if n == 0:
-        return
-
-    print(n)
-    countdown(n - 1)
-
-countdown(3)
-
-Output:
-
-3
-2
-1
-
-Key Takeaway:
-
-Recursion solves a problem by breaking it into smaller versions of the same problem. A correct base case prevents infinite recursive calls.
-
----
-
-✅ Day 7 — Arrays: Insertion, Deletion, and Complexity
-
-Topics Covered:
-
-- Understanding arrays and indexed access.
-- Inserting elements into a list.
-- Deleting elements from a list.
-- Understanding why insertion and deletion can require shifting elements.
-- Analysing operation complexity.
-
-Example:
-
-arr = [10, 20, 30, 40]
-
-arr.insert(1, 15)
-print(arr)
-
-arr.pop(2)
-print(arr)
-
-Output:
-
-[10, 15, 20, 30, 40]
-[10, 15, 30, 40]
-
-Complexity Notes:
-
-Operation| Typical Complexity
-Access by index| O(1)
-Insert at the beginning| O(n)
-Delete from the beginning| O(n)
-Append to a Python list| O(1) amortized
-
-Key Takeaway:
-
-Array operations have different costs depending on where elements are inserted or deleted.
-
----
-
-✅ Day 8 — Arrays: Practical Understanding
-
-Topics Covered:
-
-- Reviewing array fundamentals.
-- Understanding array indexing.
-- Analysing element access and traversal.
-- Practising array-related questions.
-- Connecting array operations with complexity analysis.
-
-Key Takeaway:
-
-Understanding indexing, traversal, and operation costs provides a foundation for solving more advanced array problems.
-
----
-
-✅ Day 9 — Searching Algorithms
-
-Topics Covered:
-
-- Understanding the purpose of searching algorithms.
-- Learning Linear Search.
-- Learning Binary Search.
-- Comparing their time complexities.
-- Implementing searching algorithms using Python.
-
-Linear Search
-
-Checks elements one by one until the target is found or the collection ends.
-
-Time Complexity:
-
-- Best case: O(1)
-- Average case: O(n)
-- Worst case: O(n)
-
-Binary Search
-
-Repeatedly halves the search interval to find a target in a sorted array.
-
-Time Complexity:
-
-- Best case: O(1)
-- Average case: O(log n)
-- Worst case: O(log n)
-
-Key Takeaway:
-
-Linear Search works with sorted and unsorted arrays, while standard Binary Search requires sorted data. Binary Search is generally more efficient for searching large, sorted collections.
-
----
-
-✅ Day 10 — Sorting Algorithms: Bubble Sort
-
-Topics Covered:
-
-- Introduction to sorting algorithms.
-- Understanding Bubble Sort.
-- Comparing adjacent elements.
-- Swapping elements that are in the wrong order.
-- Implementing Bubble Sort using Python.
-- Analysing time and auxiliary space complexity.
-
-Python Implementation:
-
-arr = [5, 2, 4, 1]
-n = len(arr)
-
-for i in range(n):
-    for j in range(n - i - 1):
-        if arr[j] > arr[j + 1]:
-            arr[j], arr[j + 1] = arr[j + 1], arr[j]
-
-print(arr)
-
-Output:
-
-[1, 2, 4, 5]
-
-Complexity Analysis:
-
-Case| Time Complexity
-Best case| O(n²) for this implementation
-Average case| O(n²)
-Worst case| O(n²)
-Auxiliary space| O(1)
-
-Key Takeaway:
-
-Bubble Sort repeatedly compares adjacent elements and swaps them when necessary. It is easy to understand but inefficient for large datasets.
-
----
-
-🛠️ Technologies and Tools
+💻 Technologies and Tools
 
 - Programming Language: Python
 - Version Control: Git
-- Code Repository: GitHub
-- Learning Focus: DSA fundamentals, problem-solving, algorithm analysis
+- Code Hosting: GitHub
+- Learning Approach: Concept explanations, Python implementations, quizzes, and problem-solving practice
 
 ---
 
-📈 Learning Summary
+🧠 Important Concepts Learned
 
-Through my first ten days of DSA learning, I have studied:
+1. Time Complexity
 
-- [x] Introduction to Data Structures and Algorithms
-- [x] Time complexity and Big O notation
-- [x] Space complexity
-- [x] Auxiliary space complexity
-- [x] Algorithm analysis and complexity practice
-- [x] Recursion fundamentals
-- [x] Arrays and their operations
-- [x] Linear Search
-- [x] Binary Search
-- [x] Sorting fundamentals
-- [x] Bubble Sort
+Time complexity describes how an algorithm's running time grows as the input size increases.
+
+Common complexities studied:
+
+- "O(1)" — Constant time
+- "O(log n)" — Logarithmic time
+- "O(n)" — Linear time
+- "O(n²)" — Quadratic time
+
+2. Space Complexity
+
+Space complexity describes how an algorithm's memory requirements grow with input size.
+
+Auxiliary space refers specifically to the additional working memory used by an algorithm, excluding the input storage under the usual convention.
+
+3. Recursion
+
+Recursion occurs when a function calls itself to solve a smaller version of a problem.
+
+Two important elements are:
+
+- Base case: Stops the recursive calls.
+- Recursive case: Reduces the problem towards the base case.
+
+4. Arrays
+
+Arrays store elements in an ordered collection.
+
+Important operations include:
+
+- Accessing elements
+- Inserting elements
+- Deleting elements
+- Searching for elements
+
+Insertion and deletion may require shifting elements, depending on the position and the underlying array implementation.
+
+5. Binary Search
+
+Binary Search efficiently searches a sorted collection by repeatedly reducing the search space by approximately half.
+
+Basic algorithm:
+
+1. Set the left and right boundaries.
+2. Calculate the middle index.
+3. Compare the middle element with the target.
+4. Continue searching in the appropriate half.
+5. Stop when the target is found or the search space becomes empty.
+
+Typical complexity:
+
+- Best-case time: "O(1)"
+- Average-case time: "O(log n)"
+- Worst-case time: "O(log n)"
+- Auxiliary space for iterative Binary Search: "O(1)"
 
 ---
 
-🎯 Upcoming Learning Goals
+📈 My Learning Method
 
-My next learning goals include:
+I follow a structured approach to learning DSA:
 
-- Selection Sort
-- Insertion Sort
-- Merge Sort and Quick Sort fundamentals
-- More array-based coding problems
-- Strings and common string manipulation problems
-- Linked Lists
-- Stacks and Queues
-- Hashing and Dictionaries
-- Trees and Graphs
-- Searching and sorting problem practice
-- Coding interview questions and placement preparation
+1. Understand the concept in simple language.
+2. Learn the logic using examples.
+3. Study the Python implementation.
+4. Analyse time and space complexity.
+5. Test my understanding through quizzes.
+6. Solve coding problems independently.
+7. Document my learning and code on GitHub.
+8. Revise previous topics to strengthen my fundamentals.
 
-Topics will be added as I learn and practise them.
+My aim is to gradually progress from understanding basic concepts to solving placement-level coding problems.
 
 ---
 
-💡 My Learning Philosophy
+🎯 Current Focus
 
-I believe that learning DSA is not just about memorizing algorithms. It is about understanding the underlying logic, choosing appropriate approaches, analysing complexity, and developing independent problem-solving skills.
+Current progress: Day 16 — Binary Search
 
-I am documenting my progress consistently to track improvement, reinforce concepts, and build a practical foundation for future technical interviews.
+I'm currently strengthening my understanding of Binary Search, including its implementation, boundary conditions, and complexity analysis.
 
-One concept at a time. One problem at a time. Continuous improvement.
+My next priorities are:
 
-Thank you for visiting my DSA learning repository!
+- Solve Binary Search problems independently.
+- Practise handling targets that are absent from a list.
+- Improve my ability to trace algorithms step by step.
+- Revise arrays and complexity analysis.
+- Progress to new DSA topics after building sufficient confidence in the fundamentals.
+
+---
+
+🚀 Future Learning Roadmap
+
+The following topics are planned for future study:
+
+- Advanced array problems
+- Strings and string manipulation
+- Linked lists
+- Stacks and queues
+- Hashing
+- Sorting algorithms
+- Two pointers and sliding window
+- Trees and binary search trees
+- Heaps and priority queues
+- Graphs and graph traversal
+- Greedy algorithms
+- Backtracking
+- Dynamic programming
+- Placement-oriented coding practice
+
+This roadmap is a plan, not a claim that these topics have already been completed.
+
+---
+
+📌 My Goal
+
+My goal is to become a stronger problem solver, build a solid foundation in DSA using Python, and prepare for technical interviews and third-year placements.
+
+I believe consistent practice, understanding the underlying logic, and learning from mistakes are essential to improving as a programmer.
+
+I will continue updating this repository as I learn new concepts and solve more problems.
+
+One day at a time. One concept at a time. One problem at a time. 💻
+
+---
+
+⭐ Thank you for visiting my DSA learning repository!
+
+If you find this learning journey useful, feel free to explore the repository and follow my progress.

@@ -1,530 +1,546 @@
-🚀 Data Structures and Algorithms (DSA) Learning Journey
+🚀 Data Structures and Algorithms (DSA) — My Learning Journey
+
+📌 About This Repository
 
 Welcome to my Data Structures and Algorithms (DSA) learning repository!
 
-I am a Computer Science student learning DSA step by step to improve my problem-solving ability, strengthen my programming fundamentals, and prepare for technical interviews and software development placements.
+This repository documents my daily progress in learning DSA using Python. My goal is to develop strong problem-solving skills, understand algorithmic thinking, write efficient code, and prepare for technical interviews and future software development opportunities.
 
-This repository documents my daily learning progress, important concepts, Python implementations, coding practice, and understanding of algorithm efficiency.
+Instead of memorizing solutions, I focus on understanding the logic behind each problem, practising implementation, analysing time and space complexity, and improving my ability to solve problems independently.
 
-My focus is on understanding the logic behind every problem rather than simply memorizing code.
+Learning Progress: Day 1 – Day 25
+Programming Language: Python 🐍
+Focus Areas: Problem-Solving, Arrays, Searching Algorithms, Strings, Hash Maps, and Algorithm Analysis.
 
 ---
 
-🎯 Objectives
+🎯 Learning Objectives
 
 - Build a strong foundation in Data Structures and Algorithms.
-- Improve logical thinking and problem-solving skills.
-- Learn to choose efficient algorithms for different problems.
-- Understand time and space complexity.
-- Practise implementing DSA concepts using Python.
-- Prepare for coding assessments and technical interviews.
-- Maintain a consistent learning record using GitHub.
+- Understand how to analyse algorithm efficiency.
+- Learn to solve problems using Python.
+- Improve logical thinking and computational problem-solving.
+- Understand the time and space complexity of algorithms.
+- Develop the ability to choose efficient solutions.
+- Maintain a consistent daily coding practice routine.
+- Prepare for coding interviews and future technical opportunities.
 
 ---
 
-🛠️ Technologies and Tools
+📚 DSA Learning Progress
 
-- Programming Language: Python
-- Version Control: Git
-- Code Repository: GitHub
-- Practice: DSA exercises, quizzes, and coding problems
-
----
-
-📚 Daily Learning Progress
-
-🟢 Day 1 — Introduction to DSA
+🔹 Day 1: Introduction to DSA
 
 Topics Covered
 
 - Introduction to Data Structures and Algorithms.
-- Why DSA is important in programming.
-- Understanding how data structures organize information.
-- Understanding how algorithms solve computational problems.
-- The role of DSA in coding interviews and software development.
+- Understanding Python lists as a way to store collections of elements.
+- Array/list indexing and the concept of zero-based indexing.
+- Accessing and traversing elements.
+- Finding the largest and smallest elements in a list.
+- Introduction to linear search.
+- Basic list operations, including adding and removing elements.
+- Checking whether an element exists in a list.
+- Counting occurrences of elements.
 
-Key Learning
+Key Learnings
 
-Data structures help organize and store data, while algorithms provide step-by-step instructions for solving problems.
+Learned how to traverse a list, compare elements, update variables, and use basic searching techniques to solve simple problems.
 
----
-
-🟢 Day 2 — Introduction to Big O Notation
-
-Topics Covered
-
-- Introduction to algorithm efficiency.
-- Understanding Big O notation.
-- Constant time complexity: O(1).
-- Linear time complexity: O(n).
-- Quadratic time complexity: O(n²).
-
-Key Learning
-
-Big O notation describes how an algorithm's resource requirements grow as the input size increases.
-
-Examples:
-
-- O(1): Accessing an element by index in a Python list.
-- O(n): Traversing a list.
-- O(n²): Comparing every pair of elements using two nested loops.
+Also developed an initial understanding of how the number of elements affects an algorithm's execution time.
 
 ---
 
-🟢 Day 3 — Space Complexity
+🔹 Days 2–5: Building Programming Logic and DSA Fundamentals
 
-Topics Covered
+Focused on strengthening the basic concepts needed to solve DSA problems.
 
-- Introduction to space complexity.
-- Understanding auxiliary space.
-- How variables and additional data structures use memory.
-- Difference between time complexity and space complexity.
+Learning Focus
 
-Key Learning
+- Understanding problem statements.
+- Breaking problems into smaller steps.
+- Using variables and conditional logic.
+- Working with loops and collections.
+- Practising array/list traversal.
+- Developing step-by-step problem-solving logic.
 
-Time complexity describes how an algorithm's running time scales with input size, while space complexity describes how its memory requirements scale.
+Key Learnings
 
-Efficient problem-solving involves considering both.
+Developed a foundation for translating problem statements into logical steps and implementing solutions in Python.
 
----
-
-🟢 Day 4 — Algorithm Complexity Practice
-
-Topics Covered
-
-- Reviewing basic Big O concepts.
-- Identifying common time complexities.
-- Analysing simple code examples.
-- Practising complexity-related questions.
-
-Key Learning
-
-Understanding an algorithm's structure helps estimate its efficiency before running it.
+Note: This section summarises the foundational learning phase rather than assigning specific unverified topics to individual days.
 
 ---
 
-🟢 Day 5 — DSA Fundamentals Review
+🔹 Days 6–9: Arrays and Problem-Solving Practice
 
-Topics Covered
+Learning Focus
 
-- Revising fundamental DSA concepts.
-- Connecting data structures, algorithms, and complexity.
-- Practising basic conceptual questions.
-- Strengthening foundational understanding.
+- Working with arrays and Python lists.
+- Accessing elements through indices.
+- Traversing collections.
+- Finding maximum and minimum values.
+- Searching for elements.
+- Counting occurrences.
+- Understanding basic list methods.
+- Analysing simple solutions.
 
-Key Learning
+Python List Operations
 
-A strong foundation makes it easier to understand more advanced data structures and algorithms.
+Practised or reviewed commonly used list operations, including:
 
----
+- "append()" — Add an element to the end.
+- "insert()" — Insert an element at a specified position.
+- "extend()" — Add multiple elements.
+- "remove()" — Remove an element by value.
+- "pop()" — Remove and return an element.
+- "clear()" — Remove all elements.
+- "index()" — Find the index of an element.
+- "count()" — Count occurrences.
+- "sort()" — Sort a list in place.
+- "reverse()" — Reverse a list in place.
+- "sorted()" — Return a sorted version of an iterable.
 
-🟢 Day 6 — Recursion
+Key Learnings
 
-Topics Covered
-
-- Introduction to recursion.
-- Understanding recursive function calls.
-- Base cases.
-- Recursive cases.
-- How recursion breaks a problem into smaller subproblems.
-
-Key Learning
-
-A recursive function calls itself to solve a smaller version of the same problem.
-
-A recursive solution needs a base case to stop the recursive calls.
-
-Important Terms
-
-- Base Case: The condition that stops recursion.
-- Recursive Case: The part that calls the function again.
-- Call Stack: The mechanism that tracks active function calls.
+Strengthened understanding of list manipulation, element searching, and the importance of choosing appropriate operations for a problem.
 
 ---
 
-🟢 Day 7 — Arrays: Insertion and Deletion
+🔹 Days 10–13: Searching Algorithms and Binary Search
 
-Topics Covered
+Studied searching algorithms, with particular attention to understanding and practising binary search.
 
-- Understanding arrays and Python lists.
-- Accessing elements using indexes.
-- Inserting elements into a list.
-- Deleting elements from a list.
-- Understanding the cost of shifting elements.
+1. Linear Search
 
-Key Learning
-
-Accessing an element by index in a Python list generally takes O(1) time.
-
-Insertion or deletion at the beginning or middle of a list generally takes O(n) time because other elements may need to shift.
-
-Appending to a Python list is amortized O(1).
-
-Complexity Overview
-
-Operation| Typical Time Complexity
-Access by index| O(1)
-Search in an unsorted list| O(n)
-Insert at the beginning| O(n)
-Delete from the beginning| O(n)
-Append to the end| Amortized O(1)
-
----
-
-🟢 Day 8 — Introduction to Searching
-
-Topics Covered
-
-- Understanding searching algorithms.
-- Finding a target element in a collection.
-- Understanding the importance of input order.
-- Introduction to linear search and binary search.
-
-Key Learning
-
-The choice of searching algorithm depends on the input data and its properties.
-
-Linear search works on unsorted data, while binary search requires sorted data.
-
----
-
-🟢 Day 9 — Searching Algorithms
-
-Topics Covered
-
-- Understanding how searching algorithms work.
-- Reviewing linear search.
-- Understanding the basic binary search approach.
-- Comparing search efficiency.
-
-Key Learning
-
-Linear Search: Checks elements one by one and takes O(n) time in the worst case.
-
-Binary Search: Repeatedly halves the search space and takes O(log n) time in the worst case on sorted data.
-
----
-
-🟢 Day 10 — Search Algorithms Review
-
-Topics Covered
-
-- Revising searching fundamentals.
-- Reviewing linear search and binary search.
-- Comparing time complexity.
-- Practising searching-related questions.
-- Updating learning documentation.
-
-Key Learning
-
-Binary search is more efficient than linear search for large sorted arrays, but it cannot be applied directly to arbitrary unsorted arrays.
-
----
-
-🟢 Day 11 — Binary Search Practice
-
-Topics Covered
-
-- Revising binary search.
-- Understanding the "left", "right", and "mid" variables.
-- Updating the search boundaries.
-- Practising binary search questions.
-
-Key Learning
-
-The middle element determines which half of the sorted array should be searched next.
-
----
-
-🟢 Day 12 — Binary Search Problem Solving
-
-Topics Covered
-
-- Practising binary search questions.
-- Understanding target comparisons.
-- Updating search boundaries correctly.
-- Improving algorithmic thinking.
-
-Key Learning
-
-Correctly updating the search boundaries is essential to avoid infinite loops and incorrect results.
-
----
-
-🟢 Day 13 — Binary Search Practice and Revision
-
-Topics Covered
-
-- Reviewing binary search logic.
-- Practising multiple-choice questions.
-- Understanding the search process.
-- Strengthening implementation fundamentals.
-
-Key Learning
-
-Repeated practice helps improve accuracy when applying binary search to different sorted-array problems.
-
----
-
-🟢 Day 14 — Binary Search Problem Practice
-
-Topics Covered
-
-- Practising binary search problems.
-- Understanding how the target's position affects the search.
-- Reviewing time complexity.
-- Improving confidence in searching algorithms.
-
-Key Learning
-
-Binary search repeatedly eliminates half of the remaining search space, making it efficient for large sorted arrays.
-
----
-
-🟢 Day 15 — Binary Search: Continued Practice
-
-Topics Covered
-
-- Continuing binary search exercises.
-- Reviewing the comparison process.
-- Practising search-boundary updates.
-- Strengthening problem-solving skills.
-
-Key Learning
-
-The correct binary search condition and boundary updates depend on the exact problem being solved.
-
----
-
-🟢 Day 16 — Binary Search Review and Practice
-
-Topics Covered
-
-- Reviewing binary search fundamentals.
-- Practising searching questions.
-- Applying the divide-and-conquer approach.
-- Revising time complexity.
-
-Key Learning
-
-Binary search follows a divide-and-conquer strategy by reducing the remaining search space at each iteration.
-
----
-
-🟢 Day 17 — Binary Search: Occurrence Problems
-
-Topics Covered
-
-- Continuing binary search practice.
-- Understanding repeated elements in sorted arrays.
-- Reviewing occurrence-related problems.
-- Practising search-boundary updates.
-
-Key Learning
-
-Finding a target in a sorted array and finding a particular occurrence of that target are different problems.
-
-Occurrence problems may require modifying the normal binary search algorithm.
-
----
-
-🟢 Day 18 — Finding Occurrences Using Binary Search
-
-Topics Covered
-
-- Understanding occurrence-related searching problems.
-- Working with sorted arrays containing duplicates.
-- Reviewing binary search conditions.
-- Practising target-search problems.
-
-Key Learning
-
-When duplicate values exist, finding one occurrence does not necessarily identify the first or last occurrence.
-
-The search logic must be adapted to the required result.
-
----
-
-🟢 Day 19 — Binary Search: Occurrence Practice
-
-Topics Covered
-
-- Practising occurrence-related problems.
-- Revising binary search logic.
-- Understanding the movement of search boundaries.
-- Improving accuracy through quizzes.
-
-Key Learning
-
-A clear understanding of the problem requirement is necessary before choosing how to update the binary search boundaries.
-
----
-
-🟢 Day 20 — Binary Search Practice and Revision
-
-Topics Covered
-
-- Continuing binary search practice.
-- Reviewing occurrence-related problems.
-- Strengthening understanding through conceptual questions.
-- Revising previously learned searching concepts.
-
-Key Learning
-
-Consistent revision helps reinforce binary search fundamentals and prepares me to solve more complex variations.
-
----
-
-🟢 Day 21 — First and Last Occurrence Using Binary Search
-
-Topics Covered
-
-- Finding the first occurrence of a target element.
-- Finding the last occurrence of a target element.
-- Handling duplicate elements in sorted arrays.
-- Implementing binary search using Python.
-- Analysing time and auxiliary space complexity.
-
-Problem Statement
-
-Given a sorted array containing duplicate elements, find the first and last indexes of a target value.
+Linear search examines elements sequentially until the target is found or the collection ends.
 
 Example:
+
+def linear_search(arr, target):
+    for i, num in enumerate(arr):
+        if num == target:
+            return i
+    return -1
+
+Complexity:
+
+- Best-case time: O(1)
+- Worst-case time: O(n)
+- Auxiliary space: O(1)
+
+2. Binary Search
+
+Binary search efficiently searches a sorted array by repeatedly dividing the search interval into two halves.
+
+Important Concepts
+
+- "low": The lower boundary of the search interval.
+- "high": The upper boundary of the search interval.
+- "mid": The middle index of the interval.
+- Comparing the middle element with the target.
+- Updating the search boundaries.
+- Repeating until the target is found or the interval becomes empty.
+
+Python Implementation
+
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low <= high:
+        mid = low + (high - low) // 2
+
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return -1
+
+Complexity
+
+- Best-case time: O(1)
+- Worst-case time: O(log n)
+- Auxiliary space: O(1)
+
+Important: Standard binary search requires the input to be sorted.
+
+Linear Search vs. Binary Search
+
+Feature| Linear Search| Binary Search
+Input requirement| Works on sorted or unsorted arrays| Requires sorted input
+Search method| Checks elements sequentially| Repeatedly halves the search interval
+Worst-case time| O(n)| O(log n)
+Auxiliary space| O(1) for the iterative version| O(1) for the iterative version
+
+Key Learnings
+
+Understood how binary search reduces the search space and why it is generally more efficient than linear search on large, sorted arrays.
+
+---
+
+🔹 Days 14–20: Binary Search Practice and Occurrence Problems
+
+Focused on strengthening binary search through repeated practice, revision, and problem-solving exercises.
+
+Learning Focus
+
+- Reviewing the binary search algorithm.
+- Understanding search boundaries.
+- Updating "low", "high", and "mid" correctly.
+- Tracing the algorithm step by step.
+- Identifying common binary search mistakes.
+- Solving variations of binary search.
+- Finding the first occurrence of a target.
+- Finding the last occurrence of a target.
+- Understanding how duplicate elements affect search results.
+
+First and Last Occurrence
+
+Consider the sorted array:
 
 arr = [1, 2, 2, 2, 3, 4, 5]
 target = 2
 
-Expected Output:
+The first occurrence of "2" is at index "1".
 
-First occurrence: 1
-Last occurrence: 3
+The last occurrence of "2" is at index "3".
+
+A standard binary search may return any matching occurrence. To find the first or last occurrence, the algorithm must continue searching after finding a match.
+
+General Approach
+
+First occurrence:
+
+- When the target is found, record its index.
+- Continue searching the left half.
+
+Last occurrence:
+
+- When the target is found, record its index.
+- Continue searching the right half.
+
+Complexity
+
+- Time: O(log n) for each binary-search-based occurrence search.
+- Auxiliary space: O(1) for an iterative implementation.
+
+Key Learnings
+
+Improved the ability to trace binary search, manage search boundaries, and modify a standard algorithm to solve related problems.
+
+Repeated practice also helped reinforce the difference between finding an element and finding its first or last position.
+
+---
+
+🔹 Days 21–22: Binary Search Revision and Continued Practice
+
+Learning Focus
+
+- Revising binary search concepts.
+- Practising first and last occurrence problems.
+- Strengthening understanding of sorted arrays.
+- Applying binary search to target-search problems.
+- Improving accuracy through quizzes and algorithm tracing.
+
+Key Learnings
+
+Reinforced the importance of correctly updating search boundaries and understanding how the algorithm reduces the remaining search space.
+
+Focused on improving problem-solving accuracy rather than simply memorising code.
+
+---
+
+🔹 Day 23: Palindrome Problems
+
+Studied palindrome problems involving strings.
+
+What Is a Palindrome?
+
+A palindrome is a sequence that reads the same forward and backward.
+
+Examples:
+
+- "madam" — Palindrome.
+- "level" — Palindrome.
+- "hello" — Not a palindrome.
+
+Basic Python Implementation
+
+def is_palindrome(s):
+    return s == s[::-1]
+
+How It Works
+
+- "s[::-1]" creates a reversed version of the string.
+- The original string is compared with its reversed version.
+- If both are equal, the string is a palindrome.
+
+Complexity
+
+For a string of length n:
+
+- Time: O(n).
+- Auxiliary space: O(n) for the reversed string created by slicing.
+
+Key Learnings
+
+Developed an understanding of palindrome checking, string reversal, equality comparison, and basic string-based problem-solving.
+
+---
+
+🔹 Day 24: Anagram Problems
+
+Studied anagram problems and the relationship between character frequencies in strings.
+
+What Is an Anagram?
+
+Two strings are anagrams if they contain exactly the same characters with the same frequencies, regardless of their order.
+
+Example:
+
+String 1: listen
+String 2: silent
+Result: True
+
+Both strings contain the same characters with identical frequencies.
+
+Basic Python Implementation
+
+from collections import Counter
+
+def is_anagram(s1, s2):
+    return Counter(s1) == Counter(s2)
+
+How It Works
+
+- "Counter()" counts the occurrences of each character.
+- Both character-frequency mappings are compared.
+- If the frequencies match, the strings are anagrams.
+
+Complexity
+
+For two strings of lengths n and m:
+
+- Time: O(n + m) on average.
+- Auxiliary space: O(n + m) in the general case.
+
+Key Learnings
+
+Learned the importance of character frequencies, string comparison, and using suitable data structures to simplify problems.
+
+---
+
+🔹 Day 25: Two Sum Problem Using a Hash Map
+
+Studied the Two Sum problem, which demonstrates how a Hash Map can improve the efficiency of array-based problem-solving.
+
+Problem Statement
+
+Given an array of integers and a target value, find the indices of two distinct elements whose sum equals the target.
+
+Example
+
+arr = [2, 7, 11, 15]
+target = 9
+
+Output:
+
+[0, 1]
+
+Because:
+
+arr[0] + arr[1] = 2 + 7 = 9
 
 Approach
 
-Finding the First Occurrence
+1. Create an empty dictionary.
 
-1. Initialise the search boundaries.
-2. Calculate the middle index.
-3. If the middle element matches the target, save its index.
-4. Continue searching the left half.
-5. Return the earliest matching index.
+2. Traverse the array while tracking each element's index.
 
-Finding the Last Occurrence
+3. Calculate the required complement:
+   
+   "complement = target - current_number"
 
-1. Initialise the search boundaries.
-2. Calculate the middle index.
-3. If the middle element matches the target, save its index.
-4. Continue searching the right half.
-5. Return the latest matching index.
+4. Check whether the complement already exists in the dictionary.
 
-If the target is absent, return "-1".
+5. If it exists, return the stored index and the current index.
+
+6. Otherwise, store the current number and its index.
+
+7. If no valid pair exists, return an empty list.
+
+Python Implementation
+
+def two_sum(arr, target):
+    seen = {}
+
+    for i, num in enumerate(arr):
+        needed = target - num
+
+        if needed in seen:
+            return [seen[needed], i]
+
+        seen[num] = i
+
+    return []
+
+
+arr = [2, 7, 11, 15]
+target = 9
+
+print(two_sum(arr, target))
+
+Output:
+
+[0, 1]
 
 Complexity Analysis
 
-Operation| Time Complexity| Auxiliary Space
-First occurrence| O(log n)| O(1)
-Last occurrence| O(log n)| O(1)
+- Average-case time complexity: O(n).
+- Auxiliary space complexity: O(n) in the worst case.
 
-Key Learning
+The dictionary allows the algorithm to check for a previously visited complement without searching the entire array again.
 
-Normal binary search can stop after finding a target. However, finding the first or last occurrence requires continuing the search after a match.
+Key Learnings
 
-This approach efficiently handles duplicate elements in sorted arrays.
+- Understanding the Two Sum problem.
+- Using a Python dictionary as a Hash Map.
+- Applying the complement technique.
+- Using "enumerate()" to access indices and values.
+- Understanding the time-space trade-off.
+- Comparing a Hash Map solution with a brute-force approach.
 
-Practice Result
-
-- Concept quiz completed.
-- Score: 5/5.
-- Python implementation reviewed.
-
----
-
-📊 Concepts Learned So Far
-
-Area| Concepts
-DSA Fundamentals| Data structures, algorithms, problem-solving
-Complexity Analysis| Big O notation, time complexity, space complexity
-Recursion| Base cases, recursive cases, call stack
-Arrays| Indexing, insertion, deletion, shifting elements
-Searching| Linear search, binary search
-Binary Search| Search boundaries, middle index, divide and conquer
-Occurrence Problems| First occurrence, last occurrence, duplicate handling
-Python Implementation| Conditions, loops, functions, variables
-Problem Solving| Quizzes, algorithm analysis, coding logic
+A brute-force solution checks every possible pair and takes O(n²) time in the worst case. The Hash Map approach improves the average-case running time to O(n).
 
 ---
 
-💡 Important Complexity Reference
+🧠 Core Concepts Learned
 
-Complexity| General Meaning| Example
-O(1)| Constant time| Access a list element by index
+Throughout this learning journey, I have been developing my understanding of the following concepts.
+
+1. Data Structures
+
+- Python lists as array-like collections.
+- Indexing and traversal.
+- Basic dictionary operations and Hash Map usage.
+
+2. Searching Algorithms
+
+- Linear search.
+- Binary search.
+- First occurrence of a target.
+- Last occurrence of a target.
+
+3. String Problems
+
+- Palindrome checking.
+- String reversal.
+- Anagram checking.
+- Character-frequency comparison.
+
+4. Algorithmic Techniques
+
+- Sequential traversal.
+- Divide-and-conquer searching.
+- Search-space reduction.
+- Complement-based searching.
+- Hash Map lookups.
+
+5. Complexity Analysis
+
+- Understanding O(1), O(log n), O(n), and O(n²).
+- Analysing time complexity.
+- Understanding auxiliary space complexity.
+- Comparing straightforward solutions with more efficient approaches.
+
+6. Python Programming Skills
+
+- Lists and list methods.
+- Loops and conditional statements.
+- Functions and return values.
+- String slicing.
+- Dictionaries.
+- "enumerate()".
+- "collections.Counter".
+
+---
+
+📊 Time Complexity Reference
+
+Complexity| Meaning| Example
+O(1)| Constant time| Accessing an element by index
 O(log n)| Logarithmic time| Binary search
-O(n)| Linear time| Traverse a list
-O(n log n)| Linearithmic time| Typical efficient comparison sorting
-O(n²)| Quadratic time| Compare all pairs using nested loops
+O(n)| Linear time| Linear search in the worst case
+O(n²)| Quadratic time| Checking every possible pair using nested loops
 
-These are common complexity patterns. Actual complexity depends on the specific implementation and input.
-
----
-
-🎯 My Learning Strategy
-
-I am following a structured learning process:
-
-1. Learn the concept.
-2. Understand the logic using simple examples.
-3. Practise with quizzes and coding problems.
-4. Implement the solution in Python.
-5. Analyse time and space complexity.
-6. Document my progress on GitHub.
-7. Revise previous topics regularly.
-8. Gradually increase problem difficulty.
-
-My goal is to understand the reasoning behind each solution instead of memorising code.
+Understanding complexity helps me evaluate whether a solution is suitable for larger inputs.
 
 ---
 
-🚀 Future Learning Roadmap
+💡 My Problem-Solving Approach
 
-The next stages of my DSA journey will focus on:
+My approach to solving DSA problems is becoming more structured:
 
-- More array problems.
-- Strings and string manipulation.
-- Linear search and binary search problem variations.
+1. Understand: Identify the input, expected output, and constraints.
+2. Plan: Develop a logical approach before writing code.
+3. Implement: Convert the logic into Python.
+4. Dry Run: Trace the algorithm with an example.
+5. Test: Check normal cases and important edge cases.
+6. Analyse: Evaluate time and auxiliary space complexity.
+7. Improve: Look for a more efficient solution when appropriate.
+
+This process helps me focus on understanding why an algorithm works rather than memorising code.
+
+---
+
+🎯 Future Learning Goals
+
+My next goal is to continue developing my DSA skills through consistent practice.
+
+Planned areas of study include:
+
+- More array and string problems.
+- Hash Map and frequency-counting problems.
+- Two-pointer techniques.
+- Sliding-window techniques.
+- Prefix sums.
 - Sorting algorithms.
-- Hashing and hash-based problem solving.
-- Two-pointer technique.
-- Sliding window technique.
+- Recursion and backtracking fundamentals.
+- Stack and queue data structures.
 - Linked lists.
-- Stacks and queues.
-- Trees and binary search trees.
-- Heaps and priority queues.
-- Graphs and graph traversal.
-- Greedy algorithms.
-- Backtracking.
-- Dynamic programming.
-- Interview-oriented problem solving.
+- More interview-style coding problems.
 
-Topics will be studied progressively, with practice and revision before moving to more advanced concepts.
+These are future learning goals, not claims that every topic has already been completed.
 
 ---
 
-📈 Progress Tracker
+📈 Progress Summary
 
-- Learning Days Completed: 21
-- Primary Programming Language: Python
-- Current Focus: Binary Search and Problem Solving
-- Current Stage: DSA Fundamentals and Searching Algorithms
-- Goal: Strengthen problem-solving skills for technical interviews and placements.
+Milestone| Learning Area| Status
+Day 1| DSA fundamentals and introductory array operations| Completed
+Days 2–9| Programming logic, arrays, and problem-solving practice| Learning phase completed
+Days 10–13| Searching algorithms and binary search fundamentals| Completed
+Days 14–22| Binary search practice and occurrence problems| Practised
+Day 23| Palindrome problems| Completed
+Day 24| Anagram problems| Completed
+Day 25| Two Sum using a Hash Map| Studied and practised
 
 ---
 
-🤝 Connect With Me
+🚀 Conclusion
 
-I am continuously learning, practising, and documenting my progress.
+My first 25 days of DSA learning have helped me build a foundation in array operations, searching algorithms, binary search, string problems, and introductory Hash Map techniques.
 
-Feel free to explore this repository, share suggestions, and connect with me.
+I am focusing on consistent practice, logical thinking, and understanding algorithm efficiency.
 
-Thank you for visiting my DSA learning repository! ⭐
+My objective is not just to write code that works, but to understand why it works, analyse its performance, and gradually solve more challenging problems independently.
 
-Consistency over perfection. One concept at a time.
+25 days of learning. One step closer to becoming a better problem solver. 💻
+
+---
+
+⭐ This repository represents my ongoing DSA learning journey. I will continue updating it as I learn new concepts, practise more problems, and improve my solutions.
